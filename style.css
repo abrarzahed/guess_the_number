@@ -23,12 +23,18 @@ header {
   position: relative;
   height: 35vh;
   border-bottom: 7px solid #eee;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 
 main {
   height: 65vh;
   color: #eee;
   display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
   align-items: center;
   justify-content: space-around;
 }
@@ -43,6 +49,7 @@ main {
 .right {
   width: 52rem;
   font-size: 2rem;
+  order: -1;
 }
 
 /* ELEMENTS STYLE */
@@ -78,7 +85,7 @@ h1 {
 
 .again {
   position: absolute;
-  top: 2rem;
+  top: 4rem;
   left: 2rem;
 }
 
